@@ -84,7 +84,7 @@ const AllProduct = () => {
 
   //===========================Show Details:=======================
   async function showDetails(e) {
-    navigate("/singleproduct", { state: e });
+    navigate("/Cartlane-Clone-Frontend/singleproduct", { state: e });
   }
 
   return (
@@ -117,32 +117,32 @@ const AllProduct = () => {
           </button>
           <ul className="dropdown-menu btn-info">
             <li>
-              <a className="dropdown-item" href="/allproduct?cat=bracelet">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=bracelet">
                 BRACELET
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/allproduct?cat=necklace">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=necklace">
                 NECKLACE
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/allproduct?cat=pendant">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=pendant">
                 PENDENTS
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/allproduct?cat=earrings">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=earrings">
                 RINGS
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/allproduct?cat=bangles">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=bangles">
                 BANGLES
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/allproduct?cat=earrings">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=earrings">
                 EAR-RINGS
               </a>
             </li>

@@ -57,7 +57,7 @@ function Login() {
   async function Login(e){
     e.preventDefault();
     if (luser.length == 0 || lpass.length == 0) alert("Invalid Data!");
-    else if(luser=='admin' && lpass=="123")navigate("/admin");  
+    else if(luser=='admin' && lpass=="123")navigate("/Cartlane-Clone-Frontend/admin");  
     else{
       let res = await fetch("https://cartlaneclone.onrender.com/users");
       let data = await res.json();
@@ -66,7 +66,7 @@ function Login() {
         if (luser === data[i].username && lpass==data[i].password){          
           localStorage.setItem('jewellslogin',true);
           localStorage.setItem('jewellsUserName',data[i].username);
-          navigate("/");          
+          navigate("/Cartlane-Clone-Frontend/");          
           navigate(0);
           temp=1;
           break;
@@ -103,16 +103,16 @@ function Login() {
             <input type="submit" value="Login" className="btn solid" id='logbtn' onClick={Login} />
             <p className="social-text">Or Sign in with social platforms</p>
             <div className="social-media">
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-google"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
@@ -138,16 +138,16 @@ function Login() {
             <input type="submit" className="btn" value="Sign up" id='logbtn' onClick={Signup} />
             <p className="social-text">Or Sign up with social platforms</p>
             <div className="social-media">
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-google"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a href="/Cartlane-Clone-Frontend/" className="social-icon">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>

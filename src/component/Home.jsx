@@ -136,17 +136,17 @@ const Home = () => {
       <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=bracelet" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=bracelet" }}>
               <img src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/08-AUG/AppBanner/RakshaBandhan/02/Desktop_1920x694.webp" className="d-block w-100" alt="..." />
             </NavLink>
           </div>
           <div className="carousel-item">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=bangles" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=bangles" }}>
               <img src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/08-AUG/HPBanner/RBblog/Desktop_1920x694.webp" className="d-block w-100" alt="..." />
             </NavLink>
           </div>
           <div className="carousel-item">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=necklace" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=necklace" }}>
               <video className="img-fluid" autoPlay loop muted style={{ objectFit: 'cover', width: '100%' }}>
                 <source src={VideoSlide} type="video/mp4" />
               </video>
@@ -168,7 +168,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="left-box-1">
-              <NavLink to={{ pathname: "/allproduct", search: "?cat=rings" }}>
+              <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=rings" }}>
                 <img src="https://caratlane-live-product-images.s3.ap-south-1.amazonaws.com/media/static/images/V4/2023/Shaya/08-AUGUST/RESPONSIVE/18/Responsive_03.jpg" className="img-fluid" alt="Left Image" />
               </NavLink>
             </div>
@@ -177,14 +177,14 @@ const Home = () => {
             <div className="right-box">
               <div className="row pb-1 pt-1">
                 <div className="col-md-12">
-                  <NavLink to={{ pathname: "/allproduct", search: "?cat=bangles" }}>
+                  <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=bangles" }}>
                     <img src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/08-AUG/HPBanner/oge/2x.webp" className="img-fluid" alt="Right Image 1" />
                   </NavLink>
                 </div>
               </div>
               <div className="row pb-1 pt-1">
                 <div className="col-md-12">
-                  <NavLink to={{ pathname: "/allproduct", search: "?cat=earrings" }}>
+                  <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=earrings" }}>
                     <img src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/08-AUG/HPBanner/NewArrivals/03/1X.webp" className="img-fluid" alt="Right Image 2" />
                   </NavLink>
                 </div>
@@ -214,42 +214,42 @@ const Home = () => {
       <div className="row no-gutters" style={{ width: "100%", margin: "0", marginBottom: "10px" }}>
         <div className="col-md-4 col-6">
           <div className="left-box">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=bangles" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=bangles" }}>
               <img src={li1} className="img-fluid" alt="Image" />
             </NavLink>
           </div>
         </div>
         <div className="col-md-4 col-6">
           <div className="left-box">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=earrings" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=earrings" }}>
               <img src={li2} className="img-fluid" alt="Image" />
             </NavLink>
           </div>
         </div>
         <div className="col-md-4 col-6">
           <div className="left-box">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=necklace" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=necklace" }}>
               <img src={li3} className="img-fluid" alt="Image" />
             </NavLink>
           </div>
         </div>
         <div className="col-md-4 col-6">
           <div className="left-box">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=pendant" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=pendant" }}>
               <img src={li4} className="img-fluid" alt="Image" />
             </NavLink>
           </div>
         </div>
         <div className="col-md-4 col-6">
           <div className="left-box">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=pendant" }}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=pendant" }}>
               <img src={li5} className="img-fluid" alt="Image" />
             </NavLink>
           </div>
         </div>
         <div className="col-md-4 col-6">
           <div className="left-box">
-            <NavLink to={{ pathname: "/allproduct", search: "?cat=earrings"}}>
+            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/allproduct", search: "?cat=earrings"}}>
               <img src={li6} className="img-fluid" alt="Image" />
             </NavLink>
           </div>

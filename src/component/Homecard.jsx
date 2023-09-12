@@ -9,7 +9,7 @@ function Homecard(props) {
       <div className="image-container">
         <img className="img-fluid" src={props.image} alt="Product Image" />
       </div>
-      <a href="/">
+      <a href="/Cartlane-Clone-Frontend/">
         <div className="mask">
           <div className="d-flex justify-content-start align-items-end h-100"></div>
         </div>

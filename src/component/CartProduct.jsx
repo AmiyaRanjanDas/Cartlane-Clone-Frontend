@@ -14,7 +14,7 @@ const CartProduct = (props) => {
                 <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0" style={{ width: "200px" }}>
                   <div className="bg-image hover-zoom ripple rounded ripple-surface">
                     <img src={image} className="image-fluid w-100" />
-                    <a href="#!">
+                    <a href="/Cartlane-Clone-Frontend/">
                       <div className="hover-overlay">
                         <div
                           className="mask"

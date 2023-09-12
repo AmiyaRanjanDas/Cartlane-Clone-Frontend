@@ -92,7 +92,7 @@ const addProduct=async(e)=>{
                         <div className="p-4 mb-3" style={{ background: "#ff002d2b", borderRadius: "10px" }}>
                             <h4>{n2}</h4>
                             <p style={{margin:"5px 0 9px 0"}}>Current Products</p>
-                            <NavLink to={{ pathname: "/seeadmin", search: "?cat=products" }}>
+                            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/seeadmin", search: "?cat=products" }}>
                             <button type="button" className="btn btn-sm btn-light">See Products</button>
                             </NavLink>
                         </div>
@@ -101,7 +101,7 @@ const addProduct=async(e)=>{
                         <div className="p-4 mb-3" style={{ background: "#ff002d2b", borderRadius: "10px" }}>
                             <h4>{n3}</h4>
                             <p style={{margin:"5px 0 9px 0"}}>Current Stores</p>
-                            <NavLink to={{ pathname: "/seeadmin", search: "?cat=stores" }}>
+                            <NavLink to={{ pathname: "/Cartlane-Clone-Frontend/seeadmin", search: "?cat=stores" }}>
                             <button type="button" className="btn btn-sm btn-light">See Stores</button>
                             </NavLink>
                         </div>

@@ -24,7 +24,7 @@ function Navbar() {
     // =========================Search data===================================
     const [sdata, setSdata] = useState("");
     const navigateWithQuery = () => {
-        navigate(`/allproduct?cat=${sdata}`);
+        navigate(`/Cartlane-Clone-Frontend/allproduct?cat=${sdata}`);
     };
 
     // ===================Storing data of user in local storege==================
@@ -51,7 +51,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg" style={{ background: "#FFE1F0" }}>
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand" to="/" style={{ padding: "0" }}>
+                    <NavLink className="navbar-brand" to="/Cartlane-Clone-Frontend/" style={{ padding: "0" }}>
                         <img src={jewellsLogo} alt="" style={{ width: "175px" }} />
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,16 +60,16 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-lg-0">
                             <li className="nav-item">
-                                <NavLink id='navbtn' className="nav-link active" to="/plan">PLAN</NavLink>
+                                <NavLink id='navbtn' className="nav-link active" to="/Cartlane-Clone-Frontend/plan">PLAN</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink id='navbtn' className="nav-link active" to="/findstore">FINDSTORE</NavLink>
+                                <NavLink id='navbtn' className="nav-link active" to="/Cartlane-Clone-Frontend/findstore">FINDSTORE</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink id='navbtn' className="nav-link active" to="/trial">TRIAL</NavLink>
+                                <NavLink id='navbtn' className="nav-link active" to="/Cartlane-Clone-Frontend/trial">TRIAL</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink id='navbtn' className="nav-link active" to="/allproduct" onClick={()=>setSdata("")}>PRODUCTS</NavLink>
+                                <NavLink id='navbtn' className="nav-link active" to="/Cartlane-Clone-Frontend/allproduct" onClick={()=>setSdata("")}>PRODUCTS</NavLink>
                             </li>
                         </ul>
                         <ul className="navbar-nav mb-lg-0">
@@ -89,17 +89,17 @@ function Navbar() {
                             <li className="nav-item">
                                 {togglelogin
                                     ? <button type="button" className="btn btn-sm btn-outline-danger" style={{ margin: "4px" }} onClick={logout}>logout</button>
-                                    : <NavLink id='navbtn' className="nav-link active" to="/login">LOGIN</NavLink>
+                                    : <NavLink id='navbtn' className="nav-link active" to="/Cartlane-Clone-Frontend/login">LOGIN</NavLink>
                                 }
                             </li>
 
                             <li className="nav-item">
-                                <NavLink id='navbtn' className="nav-link active" to="/">
+                                <NavLink id='navbtn' className="nav-link active" to="/Cartlane-Clone-Frontend/">
                                     <span id='icons' className="material-symbols-outlined">favorite</span>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink id='navbtn' className="nav-link active" to={isAllowedToNavigate ? '/mycart' : '#'} onClick={handleNavigation}>
+                                <NavLink id='navbtn' className="nav-link active" to={isAllowedToNavigate ? '/Cartlane-Clone-Frontend/mycart' : '/Cartlane-Clone-Frontend/'} onClick={handleNavigation}>
                                     <span id='icons' className="material-symbols-outlined">shopping_cart</span>
                                 </NavLink>
                             </li>

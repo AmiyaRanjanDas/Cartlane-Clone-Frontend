@@ -19,7 +19,7 @@ function SingleProduct() {
     else {
       var previd = 0;
       // =================Fetch last id from carts id===============
-      const response = await fetch("https://cartlaneclone.onrender.com/cart");
+      const response = await fetch("https:/cartlaneclone.onrender.com/cart");
       const data = await response.json();
       if (data.length > 0) {
         const lastObjectData = data[data.length - 1];
@@ -33,7 +33,7 @@ function SingleProduct() {
         username: username,
       }));
 
-      const res = await fetch(`https://cartlaneclone.onrender.com/cart`, {
+      const res = await fetch(`https:/cartlaneclone.onrender.com/cart`, {
         method: "POST",
         body: JSON.stringify(...modifiedData),
         headers: {

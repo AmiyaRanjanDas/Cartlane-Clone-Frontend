@@ -7,7 +7,6 @@ import Footer from './component/footer';
 import Trail from "./component/FreeTrial";
 import Plan from './component/Plan';
 import FindStore from './component/FindStore';
-import Products from './component/Products';
 import AllProduct from './component/AllProduct';
 import Findcity from './component/Findcity';
 import MyCart from './component/MyCart';
@@ -21,18 +20,18 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/plan" element={<Plan/>}/>  
-        <Route path="/trial" element={<Trail/>}/>
-        <Route path="/findstore" element={<FindStore/>}/>   
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/allproduct" element={<AllProduct/>}/>           
-        <Route path="/singleproduct" element={<SingleProduct/>}/>       
-        <Route path="/findcity" element={<Findcity/>}/>         
-        <Route path="/mycart" element={<MyCart/>}/>
-        <Route path="/admin" element={<Admin/>}/>        
-        <Route path="/seeadmin" element={<SeeAdmin/>}/>
-        <Route path="*" element={<ErrorPage/>}/>     
+        <Route path="/Cartlane-Clone-Frontend/" element={<Home/>}/>
+        <Route path="/Cartlane-Clone-Frontend/plan" element={<Plan/>}/>  
+        <Route path="/Cartlane-Clone-Frontend/trial" element={<Trail/>}/>
+        <Route path="/Cartlane-Clone-Frontend/findstore" element={<FindStore/>}/>   
+        <Route path="/Cartlane-Clone-Frontend/login" element={<Login/>}/>
+        <Route path="/Cartlane-Clone-Frontend/allproduct" element={<AllProduct/>}/>           
+        <Route path="/Cartlane-Clone-Frontend/singleproduct" element={<SingleProduct/>}/>       
+        <Route path="/Cartlane-Clone-Frontend/findcity" element={<Findcity/>}/>         
+        <Route path="/Cartlane-Clone-Frontend/mycart" element={<MyCart/>}/>
+        <Route path="/Cartlane-Clone-Frontend/admin" element={<Admin/>}/>        
+        <Route path="/Cartlane-Clone-Frontend/seeadmin" element={<SeeAdmin/>}/>
+        <Route path="/Cartlane-Clone-Frontend/*" element={<ErrorPage/>}/>     
       </Routes>
       <Footer/>
     </div>

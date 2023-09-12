@@ -26,7 +26,7 @@ const FindStore = () => {
     if (city == null) alert("invalid data");
     else { 
       const propsToPass = city;
-      navigate('/findcity',{state: propsToPass })
+      navigate('/Cartlane-Clone-Frontend/findcity',{state: propsToPass })
     }
   }
 

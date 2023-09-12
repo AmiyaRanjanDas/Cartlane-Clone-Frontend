@@ -1,5 +1,5 @@
 tr{
-    /* transition: transform 0.2s; */
+    padding: 0;
 }
 tr:hover{
     position: relative;
