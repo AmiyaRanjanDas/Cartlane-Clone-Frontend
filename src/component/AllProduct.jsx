@@ -117,32 +117,32 @@ const AllProduct = () => {
           </button>
           <ul className="dropdown-menu btn-info">
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=bracelet">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=bracelet">
                 BRACELET
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=necklace">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=necklace">
                 NECKLACE
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=pendant">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=pendant">
                 PENDENTS
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=earrings">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=earrings">
                 RINGS
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=bangles">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=bangles">
                 BANGLES
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?cat=earrings">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=earrings">
                 EAR-RINGS
               </a>
             </li>
