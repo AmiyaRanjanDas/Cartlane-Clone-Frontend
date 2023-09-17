@@ -117,27 +117,27 @@ const AllProduct = () => {
           </button>
           <ul className="dropdown-menu btn-info">
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=bracelet">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct/products?catagory=bracelet">
                 BRACELET
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=necklace">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct/products?catagory=necklace">
                 NECKLACE
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=pendant">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct/products?catagory=pendant">
                 PENDENTS
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=earrings">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct/products?catagory=earrings">
                 RINGS
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct?catagory=bangles">
+              <a className="dropdown-item" href="/Cartlane-Clone-Frontend/allproduct/products?catagory=bangles">
                 BANGLES
               </a>
             </li>
